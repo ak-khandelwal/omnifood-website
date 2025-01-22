@@ -95,6 +95,7 @@
 
 @media screen and (max-width: 992px) {
   .testimonials-body{
+    width:100%;
     margin:auto;
   }
   .testimonials-img > div {
@@ -173,7 +174,7 @@
 
 @media screen and (max-width: 576px) {
   html {
-    font-size: 62.5%;
+    font-size: 85%;
   }
   .go-to-top-btn{
     font-size:3rem;
