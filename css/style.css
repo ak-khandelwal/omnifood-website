@@ -243,7 +243,7 @@ cursor:pointer;
 /* start of hero */
 
 .hero {
-  padding: 4.5rem 5rem 6rem 5rem;
+  padding: 4.5rem 0rem 6rem 0rem;
   background-color: var(--primary-color-2);
   color: rgb(52, 52, 52);
   display: flex;
@@ -436,8 +436,8 @@ cursor:pointer;
   padding-bottom: 30px;
 }
 
-.testimonial-body {
-  width: 30%;
+.testimonials-body {
+  width: 50%;
 }
 .testimonial-text {
   gap: 50px;
@@ -459,13 +459,9 @@ cursor:pointer;
   font-size: 1rem;
 }
 .testimonials-img {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  /* grid-template-rows:auto auto auto auto; */
-  width: 70%;
-  /* justify-content: end; */
+  columns:170px;
+  width: 50%;
   margin: 50px 0 0 0;
-  gap: 15px 15px;
 }
 .testimonials-img > div {
   width: 12.25em;

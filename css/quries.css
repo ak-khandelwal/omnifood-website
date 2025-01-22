@@ -94,12 +94,17 @@
 
 
 @media screen and (max-width: 992px) {
+  .testimonials-body{
+    margin:auto;
+  }
   .testimonials-img > div {
     width: 8.25em;
     height: 8.25em;
   }
   .testimonials-img {
-    grid-template-columns: auto auto auto auto;
+    margin:auto;
+    columns:100px;
+    width:100%;
   }
   .testimonial-box img {
     margin-bottom: 15px;
@@ -110,8 +115,8 @@
     text-align: center;
 }
   .testimonials-img > div {
-    width: 5.25em;
-    height: 5.25em;
+    /* width: 5.25em;
+    height: 5.25em; */
   }
   .testimonial-text {
     justify-content: center;
@@ -169,5 +174,8 @@
 @media screen and (max-width: 576px) {
   html {
     font-size: 62.5%;
+  }
+  .go-to-top-btn{
+    font-size:3rem;
   }
 }
